@@ -54,6 +54,7 @@
 			fin_->set_next(n);
 			fin_=n;
 		}
+		sz_++;
 	}
 		
 	node_t* list_t::extract_begin(void)
@@ -93,14 +94,3 @@
 		}
 		return aux;
 	}
-
-	/*void list_t::insert_sort(node_t* n)
-	{
-			//NO ME HA DADO TIEMPO DE TERMINARLO EN LA HORA.
-	}*/
-	
-	
-	
-	
-	
-	

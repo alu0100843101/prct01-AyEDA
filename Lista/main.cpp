@@ -24,6 +24,7 @@ int main(void)
 		B.insert_end(new node_t(i));
 	}
 	
+	
 	cout << "Lista B: ";
 	
 	B.write(cout);

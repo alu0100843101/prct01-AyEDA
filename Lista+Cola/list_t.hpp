@@ -22,7 +22,6 @@ class list_t{
 		void insert_empty(node_t* n); //Insertar nodo Cuando la lista está vacía.
 		void insert_begin(node_t* n); //Insertar nodo al principio de la lista, la lista en este caso ya no está vacía.
 		void insert_end(node_t* n);	 //Insertar nodo al final de la lista, la lista en este caso ya no está vacía.
-		void insert_sort(node_t* n);
 		
 		node_t* extract_begin(void); //Extraer nodo del principio de la lista.
 		node_t* extract_end(void); //Extraer nodo del final de la lista.
